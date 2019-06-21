@@ -3,8 +3,9 @@ Initial
 
 1> Create blank project
 
+1.1> Login in your Android Studio.
 
-3> Go to Tool
+2> Go to Tool
   i> Select Firebase
   ii> Connect your app to firebse
   iii> Add FCM to your app
@@ -52,3 +53,18 @@ dependencies {
                         Toast.makeText( MainActivity.this, msg, Toast.LENGTH_SHORT).show();
                     }
                 });
+                
+                
+                
+                
+ 10 > open https://console.firebase.google.com/
+ 11 > 
+    i> Create Notification
+    ii> Add Title & Text
+    iii> Terget -> select app and topic ("general")
+    iv> Additional option -> Add Chennel Name "MyNotifications" 
+    v> Send
+    
+If you select topic it takes 24 hrs to live / without topic it appear immediately in device 
+
+
