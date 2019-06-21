@@ -58,12 +58,19 @@ dependencies {
                 
                 
  10 > open https://console.firebase.google.com/
+ 
  11 > 
+ 
     i> Create Notification
+    
     ii> Add Title & Text
+    
     iii> Terget -> select app and topic ("general")
+    
     iv> Additional option -> Add Chennel Name "MyNotifications" 
+    
     v> Send
+    
     
 <h1><b>If you select topic it takes 24 hrs to live / without topic it appear immediately in device 
 
