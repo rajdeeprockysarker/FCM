@@ -65,6 +65,6 @@ dependencies {
     iv> Additional option -> Add Chennel Name "MyNotifications" 
     v> Send
     
-If you select topic it takes 24 hrs to live / without topic it appear immediately in device 
+<h1><b>If you select topic it takes 24 hrs to live / without topic it appear immediately in device 
 
 
