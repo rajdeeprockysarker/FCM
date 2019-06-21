@@ -33,20 +33,5 @@ public class MyMessagingService extends FirebaseMessagingService {
         managerCompat.notify(999,builder.build());
 
 
-        FirebaseMessaging.getInstance().subscribeToTopic("general")
-                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        String msg = "Successfull";
-                        if (!task.isSuccessful()) {
-                            msg = "Faield";
-                        }
-
-                        Toast.makeText(MyMessagingService.this, msg, Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-
-
     }
 }
